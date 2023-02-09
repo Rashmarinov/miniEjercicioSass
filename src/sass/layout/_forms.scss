@@ -1,3 +1,51 @@
 /* ********* */
 /* @FORMS */
 /* ********* */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient($color1, $color2);
+    color: $colorTitulo;
+    align-items: center;
+    margin: 15%;
+}
+
+form{
+    font-size: 1.5rem;
+    color: white;
+}
+
+input, button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 5px;
+}
+
+input{
+    width: 80%;
+    border-start-start-radius: 10px;
+    border-end-start-radius: 10px;
+    box-shadow: 0;
+    border-right: 0;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:active {
+    border: none;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    border-left: 0;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+    position: absolute;
+}
+
+
+
